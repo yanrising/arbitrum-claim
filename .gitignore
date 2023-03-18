@@ -1,0 +1,5 @@
+.goreload
+.env
+vendor
+contracts
+mock
