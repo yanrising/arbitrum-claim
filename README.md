@@ -13,16 +13,16 @@
     RECEIVE_ADDRESS=
     TARGET_BLOCK_NO=
 
-#### Download dependencies
+#### 2. Download dependencies
 ```sh
 go mod tidy
 go mod vendor
 ```
 
-#### How to run and choose mode
-live = Subscribe and waiting block target & claim
-claim = Execute only claim function
-transfer = execute only transfer function. transfer all $ARB to receive address
+#### 3. How to run and choose mode
+- live = Subscribe and waiting block target & claim
+- claim = Execute only claim function
+- transfer = execute only transfer function. transfer all $ARB to receive address
 ```sh
 go run main.go live
 go run main.go claim
